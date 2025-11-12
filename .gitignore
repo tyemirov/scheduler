@@ -1,9 +1,4 @@
-.idea/
-.vscode/
-bin/
-*.db
-*.log
-*.txt
-*.iml
+# Managed by gix gitignore workflow
 .env
-qodana.yaml
+tools/
+bin/
