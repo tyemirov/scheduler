@@ -7,3 +7,5 @@ bin/
 *.iml
 .env
 qodana.yaml
+# Managed by gix gitignore workflow
+tools/
