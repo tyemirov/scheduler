@@ -1,3 +1,3 @@
-module github.com/temirov/scheduler
+module github.com/tyemirov/scheduler
 
 go 1.24

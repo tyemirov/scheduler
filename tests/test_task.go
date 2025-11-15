@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/temirov/scheduler/pkg/scheduler"
+	"github.com/tyemirov/scheduler/pkg/scheduler"
 )
 
 // TestTask implements the scheduler.Task interface for testing
