@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/temirov/scheduler/pkg/utils"
+	"github.com/tyemirov/scheduler/pkg/utils"
 )
 
 // Execute processes CLI flags and executes the requested command.

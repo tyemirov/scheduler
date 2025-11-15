@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/temirov/scheduler/pkg/scheduler"
+	"github.com/tyemirov/scheduler/pkg/scheduler"
 )
 
 // RegisterTestTaskFactory registers a factory for the test task
