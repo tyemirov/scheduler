@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/temirov/scheduler/pkg/scheduler"
+	"github.com/tyemirov/scheduler/pkg/scheduler"
 )
 
 func TestSchedulerIntegration(testContext *testing.T) {
