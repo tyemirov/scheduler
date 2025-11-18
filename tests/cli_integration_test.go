@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/temirov/scheduler/pkg/scheduler"
+	"github.com/tyemirov/scheduler/pkg/scheduler"
 )
 
 func TestCLIRunCommand(t *testing.T) {
