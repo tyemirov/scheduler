@@ -7,11 +7,11 @@ func WordWrap(text string, lineWidth int) []string {
 	if len(text) <= lineWidth {
 		return []string{text}
 	}
-	
+
 	var wrappedLines []string
 	var currentLine string
 	words := SplitWords(text)
-	
+
 	for _, word := range words {
 		// Check if word fits on current line with a space
 		if len(currentLine)+len(word)+1 <= lineWidth {
@@ -24,7 +24,7 @@ func WordWrap(text string, lineWidth int) []string {
 			if currentLine != "" {
 				wrappedLines = append(wrappedLines, currentLine)
 			}
-			
+
 			// Handle words longer than lineWidth
 			if len(word) > lineWidth {
 				remainingWord := word
@@ -44,12 +44,12 @@ func WordWrap(text string, lineWidth int) []string {
 			}
 		}
 	}
-	
+
 	// Add the last line if there's anything left
 	if currentLine != "" {
 		wrappedLines = append(wrappedLines, currentLine)
 	}
-	
+
 	return wrappedLines
 }
 
@@ -58,7 +58,7 @@ func WordWrap(text string, lineWidth int) []string {
 func SplitWords(text string) []string {
 	var words []string
 	var currentWord string
-	
+
 	for _, character := range text {
 		if character == ' ' || character == '\t' || character == '\n' {
 			if currentWord != "" {
@@ -69,10 +69,10 @@ func SplitWords(text string) []string {
 			currentWord += string(character)
 		}
 	}
-	
+
 	if currentWord != "" {
 		words = append(words, currentWord)
 	}
-	
+
 	return words
-} 
+}
