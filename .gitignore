@@ -7,3 +7,7 @@ bin/
 *.iml
 .env
 qodana.yaml
+# Managed by gix gitignore workflow
+.env.*
+.DS_Store
+tools/
