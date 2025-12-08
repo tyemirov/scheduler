@@ -19,7 +19,7 @@ The Scheduler is a lightweight task scheduling library written in Go. It allows 
 To use the Scheduler in your project, you can import it as a module:
 
 ```bash
-go get github.com/temirov/scheduler
+go get github.com/tyemirov/scheduler
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ To register a task, you need to define a task that implements the `Task` interfa
 package main
 
 import (
-  "github.com/temirov/scheduler/pkg/scheduler"
+  "github.com/tyemirov/scheduler/pkg/scheduler"
 )
 
 func main() {
@@ -105,7 +105,7 @@ Here's a complete example of registering and running a task:
 package main
 import (
     "context"
-    "github.com/temirov/scheduler/pkg/scheduler"
+    "github.com/tyemirov/scheduler/pkg/scheduler"
     "time"
 )
 
